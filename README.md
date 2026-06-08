@@ -16,6 +16,11 @@ Contacto: juancarlosblancoruiz@gmail.com
 - Sistema Linux (Debian/Ubuntu)
 - Bash
 
+##📝Nota: Si no tienes carpetas Documentos o Proyectos, el script las saltará. Puedes:
+
+- Crear esas carpetas: mkdir ~/Documentos ~/Proyectos
+- O editar el script y cambiar los directorios por otros que sí tengas (como ~/Descargas, ~/Imágenes, etc.)
+
 ## 🛠️ Instalación
 ```bash
 git clone https://github.com/Juank9113/linux-backup-automation.git
