@@ -21,21 +21,22 @@ Contacto: juancarlosblancoruiz@gmail.com
     Crear esas carpetas: mkdir ~/Documentos ~/Proyectos
     O editar el script y cambiar los directorios por otros que sí tengas (como ~/Descargas, ~/Imágenes, etc.)
 
-    ⚙️ Configuración
+## ⚙️ Configuración
 Edita el archivo backup.sh y modifica:
 
     BACKUP_DIR: Directorio donde se guardarán los backups
     SOURCE_DIRS: Lista de directorios a respaldar
 
-🕐 Automatizar con Cron
+## 🕐 Automatizar con Cron
 Para ejecutar diariamente a las 3 AM:
 ```bash
 crontab -e
 # Añade:
 0 3 * * * /ruta/al/backup.sh
-
+```
 ## 🛠️ Instalación
 ```bash
 git clone https://github.com/Juank9113/linux-backup-automation.git
 cd linux-backup-automation
 chmod +x backup.sh
+```
